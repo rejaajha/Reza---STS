@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'outfit';
+}
+
+header {
+    height: 70vh;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: rgba(222, 244, 251, 0.562);
+}
+
+.litle {
+    border: 2px solid blue;
+    background-color: rgba(157, 234, 255, 0.414);
+    padding: 10px 20px;
+    text-align: center;
+    width: 178px;
+    border-radius: 1000px;
+    color: blue;
+    box-shadow: 0 0 10px 3px rgb(0, 187, 255);
+}
+
+.title h1 {
+    font-size: 45px;
+}
+
+span {
+    color: blue;
+}
+
+button {
+    padding: 18px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.desc {
+    color: rgb(75, 75, 75);
+}
+
+.jenjang {
+    padding: 50px 100px;
+}
+
+.judul {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.judul h2 {
+    font-size: 15px;
+    letter-spacing: 6px;
+    font-weight: 400;
+    color: blue;
+}
+
+.judul p {
+    color: rgb(75, 75, 75);
+}
+
+.judul {
+    line-height: 20px;
+}
+
+.kontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    line-height: 20px;
+    box-shadow: 0 0 10px 4px rgb(164, 164, 164);
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.card h1, h2, p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 19px;
+}
+
+.card h1 {
+    font-size: 30px;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: blue;
+}
+
+.card p {
+    color: rgb(75, 75, 75);;
+}
+
+.card span {
+    font-size: 50px;
+    margin: 20px 0 40px 0;
+}
